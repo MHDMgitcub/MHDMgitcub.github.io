@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
     font-family: 'Arial', sans-serif;
+    margin: 0; /* Remove default margin to ensure full width */
 }
 
 header, nav, main, footer {
@@ -17,10 +18,13 @@ nav ul {
     padding: 0;
     text-align: center;
     display: flex;
+    justify-content: space-between; /* Distribute items with equal space between them */
 }
 
 nav li {
-    width: calc(1/7 * 100vw); /* Adjust the width as needed (1/7th for margins) */
+    flex: 1; /* Distribute the available space equally among list items */
+    text-align: center; /* Center the content within each list item */
+    margin: 0 calc(1/14 * 100vw); /* Adjust the margin as needed (1/14th for margins) */
 }
 
 nav a {
