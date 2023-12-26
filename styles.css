@@ -16,6 +16,8 @@ nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
+    display: flex;
+    justify-content: space-between; /* Align items with equal space between them */
 }
 
 nav a {
