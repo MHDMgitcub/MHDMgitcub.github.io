@@ -20,6 +20,10 @@ nav ul {
     justify-content: space-between; /* Align items with equal space between them */
 }
 
+nav li {
+    margin: 0 10px; /* Adjust the margin as needed */
+}
+
 nav a {
     text-decoration: none;
     color: white;
