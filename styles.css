@@ -45,11 +45,11 @@ nav a img {
     width: calc(1/7 * 100vw); /* Adjust the width as needed (1/7th for icons) */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 5px; /* Adjust the spacing between the icon and text */
-    transition: opacity 0.1s ease-in-out; /* Add a transition for the opacity property */
+    transition: opacity 0.2s ease-in-out; /* Add a transition for the opacity property */
 }
 
 nav a span {
-    transition: opacity 0.1s ease-in-out; /* Add a transition for the opacity property */
+    transition: opacity 0.2s ease-in-out; /* Add a transition for the opacity property */
 }
 
 nav a:hover {
@@ -58,7 +58,7 @@ nav a:hover {
 
 nav a:hover img,
 nav a:hover span {
-    opacity: 0.3; /* Adjust the opacity level as needed */
+    opacity: 0.1; /* Adjust the opacity level as needed */
 }
 
 main section {
