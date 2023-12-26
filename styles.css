@@ -1,8 +1,12 @@
+body, html {
+    height: 100%;
+    margin: 0; /* Remove default margin to ensure full height */
+}
+
 body {
     background: linear-gradient(to bottom, #262352, #262332); /* Adjust colors as needed */
     color: white;
     font-family: 'Arial', sans-serif;
-    margin: 0; /* Remove default margin to ensure full width */
 }
 
 header, nav, main, footer {
