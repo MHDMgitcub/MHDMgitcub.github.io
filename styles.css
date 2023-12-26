@@ -17,17 +17,12 @@ nav ul {
     padding: 0;
     text-align: center;
     display: flex;
-    justify-content: space-between; /* Align items with equal space between them */
-}
-
-nav li {
-    margin: 0 10px; /* Adjust the margin as needed */
+    justify-content: space-around; /* Center items with space around them */
 }
 
 nav a {
     text-decoration: none;
     color: white;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
