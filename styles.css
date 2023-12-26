@@ -37,7 +37,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: hidden; /* Hide overflow to prevent the grey box during the animation */
+    overflow: visible; /* Hide overflow to prevent the grey box during the animation */
 }
 
 nav a img {
