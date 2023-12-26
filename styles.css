@@ -43,10 +43,15 @@ nav a img {
     width: calc(1/7 * 100vw); /* Adjust the width as needed (1/7th for icons) */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 5px; /* Adjust the spacing between the icon and text */
+    transition: opacity 0.3s ease-in-out; /* Add a transition for the opacity property */
 }
 
 nav a:hover {
     background-color: #333;
+}
+
+nav a:hover img {
+    opacity: 0.7; /* Adjust the opacity level as needed */
 }
 
 main section {
