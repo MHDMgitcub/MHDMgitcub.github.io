@@ -20,7 +20,7 @@ nav ul {
 }
 
 nav li {
-    margin: 0 calc(1/7 * 100%); /* Adjust the margin as needed */
+    margin: 0 calc(1/14 * 100%); /* Adjust the margin as needed (1/14th for margins) */
 }
 
 nav a {
@@ -32,7 +32,7 @@ nav a {
 }
 
 nav a img {
-    width: calc(1/7 * 100%); /* Adjust the width as needed */
+    width: calc(1/7 * 100%); /* Adjust the width as needed (1/7th for icons) */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 5px; /* Adjust the spacing between the icon and text */
 }
