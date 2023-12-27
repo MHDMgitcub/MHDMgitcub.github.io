@@ -95,8 +95,8 @@ footer {
     left: 0;
     width: 100%;
     text-align: center;
-    padding: 20px; /* Adjust the padding as needed */
-    background-color: #262332; /* Adjust the background color as needed */
+    padding: 10px; /* Adjust the padding as needed */
+    background-color: transparent; /* Adjust the background color as needed */
     color: white;
 }
 
