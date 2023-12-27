@@ -4,21 +4,13 @@
     font-weight: normal;
     font-style: normal;
 }
-
 body, html {
     height: 100%;
     margin: 0;
-    font-family: 'FuturaBook', 'Arial', sans-serif;
-    /* Use 'Arial' as a fallback in case 'FuturaBook' is not available */
-}
-
-body, html {
-    height: 100%;
-    margin: 0; /* Remove default margin to ensure full height */
 }
 
 body {
-    background: linear-gradient(to bottom, #262352, #262332); /* Adjust colors as needed */
+    background: linear-gradient(to bottom, #262352, #262332);
     color: white;
     font-family: 'Arial', sans-serif;
 }
@@ -36,13 +28,13 @@ nav ul {
     padding: 0;
     text-align: center;
     display: flex;
-    justify-content: space-between; /* Distribute items with equal space between them */
+    justify-content: space-between;
 }
 
 nav li {
-    flex: 1; /* Distribute the available space equally among list items */
-    text-align: center; /* Center the content within each list item */
-    margin: 0 calc(1/14 * 100vw); /* Adjust the margin as needed (1/14th for margins) */
+    flex: 1;
+    text-align: center;
+    margin: 0 calc(1/14 * 100vw);
 }
 
 nav a {
@@ -51,32 +43,46 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: transparent; /* Set background color to transparent */
-    overflow: visible; /* Adjusted to "visible" */
+    background-color: transparent;
+    overflow: visible;
 }
 
 nav a img {
-    width: calc(1/7 * 100vw); /* Adjust the width as needed (1/7th for icons) */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 5px; /* Adjust the spacing between the icon and text */
-    transition: opacity 0.2s ease-in-out; /* Add a transition for the opacity property */
+    width: calc(1/7 * 100vw);
+    height: auto;
+    margin-bottom: 5px;
+    transition: opacity 0.2s ease-in-out;
 }
 
 nav a span {
-    transition: opacity 0.2s ease-in-out; /* Add a transition for the opacity property */
+    transition: opacity 0.2s ease-in-out;
 }
 
 nav a:hover {
-    background-color: transparent; /* Set background color to transparent during hover */
+    background-color: transparent;
 }
 
 nav a:hover img,
 nav a:hover span {
-    opacity: 0.1; /* Adjust the opacity level as needed */
+    opacity: 0.1;
 }
 
-main section {
-    margin-top: 20px;
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    margin-bottom: 20px; /* Adjust the gap between sections */
+}
+
+#about {
+    background-color: #333; /* Add a background color for visual distinction */
+}
+
+#contact {
+    background-color: #555; /* Add a background color for visual distinction */
 }
 
 footer {
