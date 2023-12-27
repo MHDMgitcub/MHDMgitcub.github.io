@@ -77,7 +77,11 @@ section {
     margin-bottom: 20px; /* Adjust the gap between sections */
 }
 
-#about {
+#profile {
+    background-color: transparent; /* Add a background color for visual distinction */
+}
+
+#projects {
     background-color: transparent; /* Add a background color for visual distinction */
 }
 
