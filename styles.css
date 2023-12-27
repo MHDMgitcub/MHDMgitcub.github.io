@@ -4,6 +4,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body, html {
     height: 100%;
     margin: 0;
@@ -28,13 +29,13 @@ nav ul {
     padding: 0;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly; /* Adjusted spacing to evenly distribute items */
 }
 
 nav li {
     flex: 1;
     text-align: center;
-    margin: 0 calc(1/14 * 100vw);
+    margin: 0;
 }
 
 nav a {
@@ -73,16 +74,16 @@ main {
 }
 
 section {
-    height: 100vh; /* Set the height to 100% of the viewport height */
-    margin-bottom: 20px; /* Adjust the gap between sections */
+    height: 100vh;
+    margin-bottom: 20px;
 }
 
 #about {
-    background-color: transparent; /* Add a background color for visual distinction */
+    background-color: transparent;
 }
 
 #contact {
-    background-color: transparent; /* Add a background color for visual distinction */
+    background-color: transparent;
 }
 
 footer {
