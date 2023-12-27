@@ -93,3 +93,21 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007BFF; /* Adjust the color as needed */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+  cursor: pointer;
+}
+
+#back-to-top a {
+  text-decoration: none;
+  color: white;
+}
+
