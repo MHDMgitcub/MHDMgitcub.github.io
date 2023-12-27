@@ -5,7 +5,7 @@
     font-style: normal;
 }
 body, html {
-    height: 50%;
+    height: 100%;
     margin: 0;
 }
 
@@ -93,7 +93,7 @@ footer {
     position: fixed; /* You can use 'fixed' or 'absolute' depending on your needs */
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 50%;
     text-align: center;
     padding: 10px; /* Adjust the padding as needed */
     background-color: transparent; /* Adjust the background color as needed */
