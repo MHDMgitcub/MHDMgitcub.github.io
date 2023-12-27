@@ -90,8 +90,14 @@ section {
 }
 
 footer {
+    position: fixed; /* You can use 'fixed' or 'absolute' depending on your needs */
+    bottom: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
-    margin-top: 20px;
+    padding: 20px; /* Adjust the padding as needed */
+    background-color: #262332; /* Adjust the background color as needed */
+    color: white;
 }
 
 #back-to-top {
