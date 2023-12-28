@@ -80,13 +80,13 @@ nav a:hover span {
     color: #F26A38; /* Olivier Orange */
     background-color: transparent;
     border: 2px solid #F26A38; /* Olivier Orange */
-    border-radius: 10px;
+    border-radius: 100px;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .nav-button:hover {
-    background-color: #F26A38; /* Use the hex code for Olivier Orange */
     color: white;
+    border: white;
 }
 
 main {
