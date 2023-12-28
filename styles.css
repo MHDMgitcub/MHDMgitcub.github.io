@@ -78,17 +78,17 @@ nav a:hover span {
     padding: 10px 20px;
     text-decoration: none;
     text-transform: uppercase; /* Convert text to uppercase */
-    letter-spacing: 2px; /* Adjust letter spacing as needed */
+    letter-spacing: 6px; /* Adjust letter spacing as needed */
     color: #F26A38; /* Olivier Orange */
     background-color: transparent;
     border: 2px solid #F26A38; /* Olivier Orange */
     border-radius: 100px;
-    transition: border 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .nav-button:hover {
     color: white;
-    border: 3px solid white; /* Specify the border width, style, and color on hover */
+    border: 2px solid white; /* Specify the border width, style, and color on hover */
 }
 
 
