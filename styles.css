@@ -91,7 +91,6 @@ nav a:hover span {
     border: 2px solid white; /* Specify the border width, style, and color on hover */
 }
 
-
 main {
     display: flex;
     flex-direction: column;
@@ -114,30 +113,28 @@ section {
     background-color: transparent;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 50%;
-    text-align: center;
-    padding: 10px;
-    background-color: transparent;
-    color: white;
+/* Styles for contact form */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
 }
 
-#back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #007BFF;
+#contact label {
     color: white;
+    margin-bottom: 5px;
+}
+
+#contact input, #contact textarea {
     padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #F26A38;
     border-radius: 5px;
-    display: none;
-    cursor: pointer;
 }
 
-#back-to-top a {
-    text-decoration: none;
+#contact input[type="submit"] {
+    background-color: #F26A38;
     color: white;
+    cursor: pointer;
 }
