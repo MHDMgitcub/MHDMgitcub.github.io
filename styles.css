@@ -81,12 +81,12 @@ nav a:hover span {
     background-color: transparent;
     border: 2px solid #F26A38; /* Olivier Orange */
     border-radius: 100px;
-    transition: border 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .nav-button:hover {
     color: white;
-    border: 3px solid white;
+    border: 2px solid white;
 }
 
 main {
