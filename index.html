@@ -60,21 +60,17 @@
 <!-- Contact form -->
 <section id="contact">
     <h2>Contact Me</h2>
-    <form>
-        <!-- Name input -->
+    <form action="https://formspree.io/f/mpzvzagd" method="POST">
+        <!-- Each input field should have a name attribute -->
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" class="nav-button" required>
-
-        <!-- Email input -->
+        <input type="text" id="name" name="name" required>
+    
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" class="nav-button" required>
-
-        <!-- Message input -->
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" class="nav-button" required></textarea>
-
-        <!-- Submit button -->
-        <button type="submit" class="nav-button">Submit</button>
+        <input type="email" id="email" name="email" required>
+    
+        <!-- Add more fields as needed -->
+    
+        <button type="submit">Submit</button>
     </form>
     <footer>
         <p>&copy; 2023 Your Name</p>
