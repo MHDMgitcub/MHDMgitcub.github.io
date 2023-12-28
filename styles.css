@@ -130,6 +130,7 @@ section {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 33px;
+    border: 0; /* Set border width to 0 */
     background-color: rgba(255, 255, 255, 0.1); /* White with 10% opacity */
 }
 
