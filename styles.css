@@ -129,8 +129,8 @@ section {
 #contact input, #contact textarea {
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #F26A38;
-    border-radius: 5px;
+    border-radius: 33px;
+    background-color: rgba(255, 255, 255, 0.1); /* White with 10% opacity */
 }
 
 #contact input[type="submit"] {
