@@ -6,7 +6,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body, html {
@@ -72,53 +72,69 @@ nav a:hover span {
     opacity: 0.1;
 }
 
+/* New styles for navigation buttons */
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: orange;
+    background-color: transparent;
+    border: 2px solid orange;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.nav-button:hover {
+    background-color: orange;
+    color: white;
+}
+
 main {
     display: flex;
     flex-direction: column;
 }
 
 section {
-    height: 100vh; /* Set the height to 100% of the viewport height */
-    margin-bottom: 20px; /* Adjust the gap between sections */
+    height: 100vh;
+    margin-bottom: 20px;
 }
 
 #profile {
-    background-color: transparent; /* Add a background color for visual distinction */
+    background-color: transparent;
 }
 
 #projects {
-    background-color: transparent; /* Add a background color for visual distinction */
+    background-color: transparent;
 }
 
 #contact {
-    background-color: transparent; /* Add a background color for visual distinction */
+    background-color: transparent;
 }
 
 footer {
-    position: fixed; /* You can use 'fixed' or 'absolute' depending on your needs */
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 50%;
     text-align: center;
-    padding: 10px; /* Adjust the padding as needed */
-    background-color: transparent; /* Adjust the background color as needed */
+    padding: 10px;
+    background-color: transparent;
     color: white;
 }
 
 #back-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #007BFF; /* Adjust the color as needed */
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  display: none;
-  cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
 }
 
 #back-to-top a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
-
